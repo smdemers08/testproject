@@ -1,0 +1,189 @@
+/*
+THEME NAME: Skimpy
+THEME URI:  http://www.levigideon.com/
+DESCRIPTION: Completely naked wordpress theme. Built to eliminate all the backend coding that comes with developing a new wordpress theme.
+VERSION: 1.1
+AUTHOR:Levi Gideon
+AUTHOR URI: http://www.levigideon.com
+TAGS: naked, bare, blank, starter, develoment
+*/
+
+
+/* =Reset default browser CSS. Based on work by Eric Meyer: http://meyerweb.com/eric/tools/css/reset/index.html
+-------------------------------------------------------------- */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	border: 0;
+	font-style: inherit;
+	font-weight: inherit;
+	margin: 0;
+	outline: 0;
+	padding: 0;
+	vertical-align: baseline;
+}
+:focus {/* remember to define focus styles! */
+	outline: 0;
+}
+body {
+	background: url('http://localhost:8888/testproject/wp-content/themes/Skimpy-master/Skimpy/images/background03.jpg');
+	position:absolute;
+	background-attachment: fixed;
+	width: 100%; 
+	line-height: 1.4;
+	font-family:'Droid Sans', arial, sans-serif;
+	font-size: .85em;
+}
+h1{
+	font-family: 'Droid Serif';
+	font-size: 3em;
+}
+a{
+	color: #000;
+}
+a :hover{
+	color: #000;
+}
+a :visited{
+	color: #000;
+	font-style: none;
+
+}
+ol, ul {
+	list-style: none;
+}
+table {/* tables still need 'cellspacing="0"' in the markup */
+	border-collapse: separate;
+	border-spacing: 0;
+}
+caption, th, td {
+	font-weight: normal;
+	text-align: left;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: "";
+}
+blockquote, q {
+	quotes: "" "";
+}
+a img {
+	border: 0;
+}
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+/* Header
+--------------------------------------------- */
+#site-title {
+	padding: 21px 0 15px;
+}
+#site-title h1 {
+	margin: 0 10px 3px 0;
+	width: 100%;
+	font-size: 2.1em;
+	line-height:1.2;
+	display: block;
+	float: left;
+	text-decoration: none;
+}
+#site-title h1 a:hover {
+	text-decoration:none;
+	margin: 0 auto;
+
+}
+#site-title h2 {
+	font:italic .9em 'Droid Serif',  arial, serif;
+	color: #000;
+	margin: 0;
+}
+
+#slideshow {
+}
+
+.clr{clear:both;}
+/*wordpress defaults*/
+.aligncenter, div.aligncenter { display: block; margin-left: auto; margin-right: auto; }.alignleft { float: left; margin: 8px; }.alignright { float: right; margin: 8px; } .wp-caption { background-color: #f3f3f3; border: 1px solid #ddd; -khtml-border-radius: 3px; -moz-border-radius: 3px; -webkit-border-radius: 3px; border-radius: 3px; /* optional rounded corners for browsers that support it */ margin: 10px; padding-top: 4px; text-align: center; }.wp-caption img { border: 0 none; margin: 0; padding: 0; }.wp-caption p.wp-caption-text { font-size: 11px; line-height: 17px; margin: 0; padding: 0 4px 5px; } 
+/* This is where you come in */
+
+/*main container*/
+#container {
+	width: 900px;
+	margin: auto;
+	float: left;
+	background: rgba(255,255,255,0.0);
+	padding: 40px;
+}
+
+#container .content {
+	width: 60%;
+	float: left;
+	margin: auto;
+}
+
+#container .sidebar{
+	width: 20%;
+	margin-left: 3.6%;
+	float: right;
+	padding: 90px 0 10px;
+}
+#menu-head-navigation-container {
+	margin: auto;
+	max-width: 100%;
+	float: center;
+	font: #fff;
+	padding: 10px 0 90px;
+}
+#menu-head-navigation-container ul li {
+	float: left;
+	list-style: none;
+	position: relative;
+}
+#menu-head-navigation-container ul li a {
+	margin:0;
+	padding:9px 14px;
+	display: block;
+	font-size: .8em;
+	text-transform: uppercase;
+}
+#menu-head-navigation-container ul.sub-menu li {
+	padding-top: 2px;
+	width: 75px;
+	vertical-align: top;
+	display:-moz-inline-stack;
+	display:inline-block;
+	zoom:1;
+	*display:inline;
+}
+#container .footer {
+	width: 80%;
+	margin: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Jesus loves you, and listens to your prayers. */
